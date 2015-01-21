@@ -1,6 +1,5 @@
 import java.util.Iterator;
 
-//Testing
 public class MyALDAList<T> implements ALDAList<T> {
 
 	private static class Node<T> {
