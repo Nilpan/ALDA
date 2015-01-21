@@ -16,7 +16,7 @@ public class MyALDAList<T> implements ALDAList<T> {
 	private int sizeOfList = 0;
 	
 	@Override
-	public Iterator iterator() {
+	public Iterator<T> iterator() {
 		return new MyALDAListIterator();
 	}
 
